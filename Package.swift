@@ -15,10 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "SwiftDate",
-            dependencies: [],
-			resources: [
-                		.process("Resources")
-			]),
+            dependencies: []
         .testTarget(
             name: "SwiftDateTests",
             dependencies: ["SwiftDate"])
